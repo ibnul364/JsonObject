@@ -1,20 +1,20 @@
 package com.example.jsonobject;
 
 public class One {
-        private String Urdu;
+        private String arabic;
 
         private String english;
 
-        private String Hindi;
+        private String bengali;
 
-        public String getUrdu ()
+        public String getArabic()
                 {
-                return Urdu;
+                return arabic;
                 }
 
-        public void setUrdu (String Urdu)
+        public void setArabic(String Urdu)
                 {
-                this.Urdu = Urdu;
+                this.arabic = Urdu;
                 }
 
         public String getEnglish ()
@@ -27,14 +27,14 @@ public class One {
                 this.english = english;
                 }
 
-        public String getHindi ()
+        public String getBengali()
                 {
-                return Hindi;
+                return bengali;
                 }
 
-        public void setHindi (String Hindi)
+        public void setBengali(String Hindi)
                 {
-                this.Hindi = Hindi;
+                this.bengali = Hindi;
                 }
 
 

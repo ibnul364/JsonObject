@@ -9,6 +9,33 @@ public class MainData
     private Tuesday Tuesday;
 
     private Saturday Saturday;
+    private Thursday Thursday;
+    private Friday Friday;
+    private Wednesday Wednesday;
+
+    public Thursday getThursday() {
+        return Thursday;
+    }
+
+    public void setThursday(Thursday thursday) {
+        Thursday = thursday;
+    }
+
+    public Friday getFriday() {
+        return Friday;
+    }
+
+    public void setFriday(Friday friday) {
+        Friday = friday;
+    }
+
+    public Wednesday getWednesday() {
+        return Wednesday;
+    }
+
+    public void setWednesday(Wednesday wednesday) {
+        Wednesday = wednesday;
+    }
 
     public Monday getMonday ()
     {
